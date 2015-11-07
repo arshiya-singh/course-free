@@ -1,0 +1,28 @@
+table .course-box {
+    padding: 0 10px;
+    line-height: 30px;
+    background-color: inherit;
+    color: #3c3c3c;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(odd) {
+    background-color:#fff;
+}
+
+tbody tr:hover, tbody .course-box.hover {
+    background-color: rgba(30, 138, 228, 0.15) !important;
+}
+
+.course-box:hover {
+    background-color: #fff !important;
+    color: #1e8ae4;
+    cursor: pointer;
+}
+
+tbody .coursebox.hover:hover {
+    background-color: #fff !important;
+}
