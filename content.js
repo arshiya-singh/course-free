@@ -6,8 +6,7 @@ $(document).ready( function(){
             console.log(className);
             $(this).attr('data-trigger','click');
             $(this).attr('data-container','body');
-            searchableName = className.replace(/ |&/g,'').toLowerCase();//name to use in search
-            var url = "https://api.coursera.org/api/catalog.v1/courses?fields=video&q=search&query=" + searchableName;
+            var url = "https://api.coursera.org/api/catalog.v1/courses?fields=video&q=search&query=" + className;
             var $this = $(this);
             console.log(url);
             getSites(url, className, $this);
