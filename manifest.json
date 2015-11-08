@@ -14,7 +14,7 @@
       "activeTab",  
       "https://www.edx.org/*",
       "https://*.courseoff.com/*",
-      "https://www.coursera.org/*",
+      "https://*.coursera.org/*",
       "https://www.udacity.com/*"
   ],
 
