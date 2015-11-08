@@ -1,13 +1,25 @@
 {
   "manifest_version": 2,
-
   "name": "Filler",
   "description": "More filler",
   "version": "1.0",
-
-  "browser_action": {
+  "page_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
 
+  "permissions": [
+    {
+      "activeTab"
+      //edx, coursera, courseoff, Udacity websites
+    }
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.gatech.courseoff.com/*"],
+      "js": ["content.js","https://code.jquery.com/jquery-2.1.4.min.js"],
+      "css": ["content.css"]
+  }
+  ]
 }
