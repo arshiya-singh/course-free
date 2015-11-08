@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Filler",
-  "description": "More filler",
+  "name": "Course Free",
+  "description": "Can't sign up for the class you want? Course Free offers an easy way to learn anything anywhere.",
   "version": "1.0",
 
   "browser_action": {
@@ -15,7 +15,8 @@
       "https://www.edx.org/*",
       "https://*.courseoff.com/*",
       "https://*.coursera.org/*",
-      "https://www.udacity.com/*"
+      "https://www.udacity.com/*",
+      "https://*.youtube.com/*"
   ],
 
   "content_scripts": [
